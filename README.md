@@ -63,3 +63,7 @@ Type `ROLLBACK` and enter the SSH password. Reboot the console normally afterwar
 This was tested on one PlayStation Classic with the exact AutoBleem version, kernel, and adapter ID listed above. Other hardware revisions, AutoBleem builds, and adapters have not been verified. The installer replaces `/bin/wpa_supplicant`, adds a global dhcpcd `nohook` entry, and runs WEXT on wlan0, so use it for the tested adapter setup.
 
 This is an unofficial community build, not an AutoBleem release. The binary is based on wpa_supplicant 2.6; see `COPYING.txt` in the ZIP for its license notice.
+
+## License
+
+This repository and the included wpa_supplicant 2.6 binary are distributed under the BSD 3-Clause License. The upstream copyright and license terms are retained; see [LICENSE](LICENSE) and the bundled `COPYING.txt` notice. See the [upstream wpa_supplicant project](https://w1.fi/wpa_supplicant/) for project information.
