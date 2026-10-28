@@ -8,8 +8,6 @@ This package fixes Wi-Fi startup for a specific PlayStation Classic setup:
 
 The console detected the adapter, but its original `wpa_supplicant` lacked the WEXT driver interface this adapter needed. This package provides a WEXT-enabled `wpa_supplicant` and a systemd service that starts it and restarts it if AutoBleem stops it. It also disables the competing dhcpcd supplicant hook.
 
-The release ZIP contains the binary, Windows installer, verification and rollback scripts, build notes, and license notice. It does not contain your Wi-Fi password.
-
 ## Requirements
 
 - A PlayStation Classic with the tested AutoBleem/kernel combination above.
